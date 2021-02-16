@@ -1,41 +1,39 @@
-# BottPetercord
-Userbot petercord
-<p align="center">
-    <img alt="XBOT VERSION" src="https://img.shields.io/badge/XBOT%20VERSION-3.0-brightgreen"/>
-    <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-17.08.2020-brightgreen"/>
-    <a href="https://travis-ci.com/X-Newbie/XBot-Remix.svg?branch=x-sql-extended" /></a>
-    <a href="https://app.codacy.com/gh/X-Newbie/XBot-Remix/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/X-Newbie/XBot-Remix"> <img src="https://img.shields.io/github/repo-size/X-Newbie/XBot-Remix?logo=github&style=for-the-badge" /></a>
-    <a href="https://github.com/X-Newbie/XBot-Remix/network/members"> <img src="https://img.shields.io/github/forks/X-Newbie/XBot-Remix?logo=github&style=for-the-badge" /></a>
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=for-the-badge" /></a>
-    <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.8.6-red?style=for-the-badge&logo=appveyor"/>
-    <img alt="Docker Automated build" src="https://img.shields.io/docker/automated/xnewbie/xbot?color=g&label=DOCKER%20VESRION&logo=LATEST&logoColor=LATEST&style=for-the-badge"/>    
-</p>
+~ $ git init
+Reinitialized existing Git repository in /data/data/com.termux/files/home/.git/
+~ $ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+~ $ git commit -m "first commit"
+Author identity unknown
 
+*** Please tell me who you are.
 
-<h3 align="center">A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.</h3>
-<p align="center">&nbsp;</p>
+Run
 
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
-## How To Host?
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
 
-The easiest way to deploy this great bot! is click on button below
-Make sure you have an account of heroku and follow all the steps required.
+fatal: unable to auto-detect email address (got 'u0_a197@localhost.(none)')
+~ $ git branch -M main
+~ $ git remote https://github.com/ilhammansiz12/Bot.git
+error: Unknown subcommand: https://github.com/ilhammansiz12/Bot.git
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
 
-Deploy to Heroku:
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/X-Newbie/XBot-Remix/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-success?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
-<br>
-
-<br><p align="center"><b>GENERATE STRING SESSION</p>
-<br>
-
-## Run on your terminal
-```
-wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstring.sh && bash Getstring.sh
-```
-
-## How to setup Google Drive
-<p align="center"><a href="https://semawur.com/gGEs1KN"> <img src="https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/userbot/resources/gd.png"/></a></p>
-
-## License
-Licensed under [Raphielscape Public License](https://github.com/X-Newbie/XBot-Remix/blob/x-sql-extended/LICENSE) - Version 1.d, February 2020
+    -v, --verbose         be verbose; must be placed before a subcommand
